@@ -590,17 +590,6 @@ F 3 "" H 5350 7700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 7500 5350 7700
-$Comp
-L MCU_Module:Arduino_Nano_v3.x A101
-U 1 1 60177C88
-P 3100 6750
-F 0 "A101" H 3000 5700 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" H 2700 5800 50  0000 C CNN
-F 2 "Module:Arduino_Nano" H 3100 6750 50  0001 C CIN
-F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 3100 6750 50  0001 C CNN
-	1    3100 6750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3600 6150 6150 6150
 Wire Wire Line
@@ -644,24 +633,15 @@ F 3 "" H 3000 5450 50  0001 C CNN
 $EndComp
 NoConn ~ 3200 5750
 NoConn ~ 2900 5750
-NoConn ~ 3600 6550
 NoConn ~ 3600 6650
 NoConn ~ 3600 6750
 NoConn ~ 3600 6850
 NoConn ~ 3600 6950
 NoConn ~ 3600 7050
-NoConn ~ 3600 7150
-NoConn ~ 3600 7250
-NoConn ~ 3600 7350
-NoConn ~ 3600 7450
 NoConn ~ 2600 6750
 NoConn ~ 2600 6850
 NoConn ~ 2600 6950
 NoConn ~ 2600 7050
-NoConn ~ 2600 7150
-NoConn ~ 2600 7250
-NoConn ~ 2600 7350
-NoConn ~ 2600 7450
 Wire Wire Line
 	2400 6550 2600 6550
 $Comp
@@ -879,5 +859,101 @@ F 9 "Sunlord" H 8700 8000 60  0001 L CNN "Manufacturer"
 F 10 "Active" H 8700 8100 60  0001 L CNN "Status"
 	1    8500 6900
 	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0120
+U 1 1 6027955C
+P 2850 9050
+F 0 "#PWR0120" H 2850 8900 50  0001 C CNN
+F 1 "VCC" H 2865 9223 50  0000 C CNN
+F 2 "" H 2850 9050 50  0001 C CNN
+F 3 "" H 2850 9050 50  0001 C CNN
+	1    2850 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 9350 3300 9350
+Wire Wire Line
+	3300 9350 3300 9600
+$Comp
+L power:GND #PWR0126
+U 1 1 6027D8F1
+P 3300 9600
+F 0 "#PWR0126" H 3300 9350 50  0001 C CNN
+F 1 "GND" H 3305 9427 50  0000 C CNN
+F 2 "" H 3300 9600 50  0001 C CNN
+F 3 "" H 3300 9600 50  0001 C CNN
+	1    3300 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J103
+U 1 1 602AAEE3
+P 3600 9050
+F 0 "J103" H 3680 9092 50  0000 L CNN
+F 1 "Conn_01x07" H 3680 9001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 3600 9050 50  0001 C CNN
+F 3 "~" H 3600 9050 50  0001 C CNN
+	1    3600 9050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 7450 0    50   Input ~ 0
+A7
+Text GLabel 2400 7350 0    50   Input ~ 0
+A6
+Text GLabel 2400 7250 0    50   Input ~ 0
+A5
+Wire Wire Line
+	2400 7250 2600 7250
+Wire Wire Line
+	2400 7350 2600 7350
+Wire Wire Line
+	2400 7450 2600 7450
+Wire Wire Line
+	3200 8750 3400 8750
+Text GLabel 3200 8750 0    50   Output ~ 0
+A7
+Text GLabel 3200 8850 0    50   Output ~ 0
+A6
+Text GLabel 3200 8950 0    50   Output ~ 0
+A5
+Wire Wire Line
+	3400 8850 3200 8850
+Wire Wire Line
+	3200 8950 3400 8950
+Wire Wire Line
+	3200 9050 3400 9050
+Wire Wire Line
+	3400 9150 2850 9150
+Wire Wire Line
+	2850 9150 2850 9050
+Text GLabel 3700 6550 2    50   BiDi ~ 0
+D4
+Text GLabel 3200 9250 0    50   BiDi ~ 0
+D4
+Wire Wire Line
+	3200 9250 3400 9250
+NoConn ~ 3600 7150
+NoConn ~ 3600 7250
+NoConn ~ 3600 7350
+NoConn ~ 3600 7450
+Wire Wire Line
+	3600 6550 3700 6550
+Text GLabel 3200 9050 0    50   Output ~ 0
+A4
+Text GLabel 2400 7150 0    50   Input ~ 0
+A4
+Wire Wire Line
+	2400 7150 2600 7150
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A101
+U 1 1 60177C88
+P 3100 6750
+F 0 "A101" H 3000 5700 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 2700 5800 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 3100 6750 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 3100 6750 50  0001 C CNN
+	1    3100 6750
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
