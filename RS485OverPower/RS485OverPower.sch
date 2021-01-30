@@ -956,4 +956,48 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 3100 6750 50
 	1    3100 6750
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 6015D2F8
+P 15250 9300
+F 0 "H103" H 15350 9346 50  0000 L CNN
+F 1 "MountingHole" H 15350 9255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 15250 9300 50  0001 C CNN
+F 3 "~" H 15250 9300 50  0001 C CNN
+	1    15250 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 6015DFE2
+P 15250 9100
+F 0 "H102" H 15350 9146 50  0000 L CNN
+F 1 "MountingHole" H 15350 9055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 15250 9100 50  0001 C CNN
+F 3 "~" H 15250 9100 50  0001 C CNN
+	1    15250 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 6015E35F
+P 15250 8900
+F 0 "H101" H 15350 8946 50  0000 L CNN
+F 1 "MountingHole" H 15350 8855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 15250 8900 50  0001 C CNN
+F 3 "~" H 15250 8900 50  0001 C CNN
+	1    15250 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 6015FC69
+P 15250 9500
+F 0 "H104" H 15350 9546 50  0000 L CNN
+F 1 "MountingHole" H 15350 9455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 15250 9500 50  0001 C CNN
+F 3 "~" H 15250 9500 50  0001 C CNN
+	1    15250 9500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
