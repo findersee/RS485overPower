@@ -25,26 +25,6 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Fixed-Inductors:82473C L102
-U 1 1 6014FDCA
-P 8050 5650
-F 0 "L102" V 7997 5738 60  0000 L CNN
-F 1 "47u" V 8103 5738 60  0000 L CNN
-F 2 "digikey-footprints:1210" H 8250 5850 60  0001 L CNN
-F 3 "https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf" H 8250 5950 60  0001 L CNN
-F 4 "811-2477-1-ND" H 8250 6050 60  0001 L CNN "Digi-Key_PN"
-F 5 "82473C" H 8250 6150 60  0001 L CNN "MPN"
-F 6 "Inductors, Coils, Chokes" H 8250 6250 60  0001 L CNN "Category"
-F 7 "Fixed Inductors" H 8250 6350 60  0001 L CNN "Family"
-F 8 "https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf" H 8250 6450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-power-solutions-inc/82473C/811-2477-1-ND/3178548" H 8250 6550 60  0001 L CNN "DK_Detail_Page"
-F 10 "FIXED IND 47UH 250MA 1.69 OHM" H 8250 6650 60  0001 L CNN "Description"
-F 11 "Murata Power Solutions Inc." H 8250 6750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8250 6850 60  0001 L CNN "Status"
-	1    8050 5650
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C104
 U 1 1 60161393
 P 7800 6050
@@ -94,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 6250 8500 6700
 Wire Wire Line
-	8500 7100 8500 7300
+	8500 7100 8500 7250
 $Comp
 L power:GND #PWR0101
 U 1 1 60176974
@@ -121,16 +101,16 @@ $EndComp
 $Comp
 L power:VCC #PWR0103
 U 1 1 6018438E
-P 6550 5400
-F 0 "#PWR0103" H 6550 5250 50  0001 C CNN
-F 1 "VCC" H 6565 5573 50  0000 C CNN
-F 2 "" H 6550 5400 50  0001 C CNN
-F 3 "" H 6550 5400 50  0001 C CNN
-	1    6550 5400
+P 6550 5350
+F 0 "#PWR0103" H 6550 5200 50  0001 C CNN
+F 1 "VCC" H 6565 5523 50  0000 C CNN
+F 2 "" H 6550 5350 50  0001 C CNN
+F 3 "" H 6550 5350 50  0001 C CNN
+	1    6550 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 5400 6550 5750
+	6550 5350 6550 5750
 Wire Wire Line
 	6550 6950 6550 7050
 $Comp
@@ -138,7 +118,7 @@ L power:PWR_FLAG #FLG0101
 U 1 1 6018712A
 P 8250 5200
 F 0 "#FLG0101" H 8250 5275 50  0001 C CNN
-F 1 "PWR_FLAG" H 8250 5373 50  0000 C CNN
+F 1 "PWR_FLAG" H 8250 5373 50  0001 C CNN
 F 2 "" H 8250 5200 50  0001 C CNN
 F 3 "~" H 8250 5200 50  0001 C CNN
 	1    8250 5200
@@ -273,26 +253,6 @@ Wire Wire Line
 Wire Wire Line
 	9550 5400 9550 5500
 $Comp
-L dk_Fixed-Inductors:82473C L103
-U 1 1 6015C3B3
-P 8500 6900
-F 0 "L103" V 8500 7050 60  0000 C CNN
-F 1 "47u" V 8400 7150 60  0000 C CNN
-F 2 "digikey-footprints:1210" H 8700 7100 60  0001 L CNN
-F 3 "https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf" H 8700 7200 60  0001 L CNN
-F 4 "811-2477-1-ND" H 8700 7300 60  0001 L CNN "Digi-Key_PN"
-F 5 "82473C" H 8700 7400 60  0001 L CNN "MPN"
-F 6 "Inductors, Coils, Chokes" H 8700 7500 60  0001 L CNN "Category"
-F 7 "Fixed Inductors" H 8700 7600 60  0001 L CNN "Family"
-F 8 "https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf" H 8700 7700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-power-solutions-inc/82473C/811-2477-1-ND/3178548" H 8700 7800 60  0001 L CNN "DK_Detail_Page"
-F 10 "FIXED IND 47UH 250MA 1.69 OHM" H 8700 7900 60  0001 L CNN "Description"
-F 11 "Murata Power Solutions Inc." H 8700 8000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8700 8100 60  0001 L CNN "Status"
-	1    8500 6900
-	0    1    1    0   
-$EndComp
-$Comp
 L Misc:RT6200 U101
 U 1 1 601AAEAD
 P 6300 2100
@@ -324,26 +284,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 7950 2550 50  0001 C CNN
 F 3 "~" H 7950 2550 50  0001 C CNN
 	1    7950 2550
 	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Fixed-Inductors:82473C L101
-U 1 1 601B4FBB
-P 7400 2000
-F 0 "L101" H 7400 1780 60  0000 C CNN
-F 1 "47u" H 7400 1886 60  0000 C CNN
-F 2 "digikey-footprints:1210" H 7600 2200 60  0001 L CNN
-F 3 "https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf" H 7600 2300 60  0001 L CNN
-F 4 "811-2477-1-ND" H 7600 2400 60  0001 L CNN "Digi-Key_PN"
-F 5 "82473C" H 7600 2500 60  0001 L CNN "MPN"
-F 6 "Inductors, Coils, Chokes" H 7600 2600 60  0001 L CNN "Category"
-F 7 "Fixed Inductors" H 7600 2700 60  0001 L CNN "Family"
-F 8 "https://www.murata-ps.com/data/magnetics/kmp_8200c.pdf" H 7600 2800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/murata-power-solutions-inc/82473C/811-2477-1-ND/3178548" H 7600 2900 60  0001 L CNN "DK_Detail_Page"
-F 10 "FIXED IND 47UH 250MA 1.69 OHM" H 7600 3000 60  0001 L CNN "Description"
-F 11 "Murata Power Solutions Inc." H 7600 3100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7600 3200 60  0001 L CNN "Status"
-	1    7400 2000
-	-1   0    0    1   
 $EndComp
 $Comp
 L Diode:MBR0540 D101
@@ -425,8 +365,6 @@ Wire Wire Line
 Wire Wire Line
 	7950 2100 7950 2000
 Connection ~ 7950 2000
-Text GLabel 10000 2000 2    50   Output ~ 0
-VCC
 Wire Wire Line
 	7950 2000 8450 2000
 $Comp
@@ -559,7 +497,7 @@ U 1 1 601F27B3
 P 4100 2050
 F 0 "C101" H 4215 2096 50  0000 L CNN
 F 1 "10u/50V" H 4215 2005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 1900 50  0001 C CNN
 F 3 "~" H 4100 2050 50  0001 C CNN
 	1    4100 2050
 	1    0    0    -1  
@@ -724,46 +662,8 @@ NoConn ~ 2600 7150
 NoConn ~ 2600 7250
 NoConn ~ 2600 7350
 NoConn ~ 2600 7450
-$Comp
-L power:VCC #PWR0120
-U 1 1 601E6803
-P 2050 5850
-F 0 "#PWR0120" H 2050 5700 50  0001 C CNN
-F 1 "VCC" H 2065 6023 50  0000 C CNN
-F 2 "" H 2050 5850 50  0001 C CNN
-F 3 "" H 2050 5850 50  0001 C CNN
-	1    2050 5850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2050 6550 2600 6550
-Wire Wire Line
-	2050 5850 2050 6150
-$Comp
-L Device:R_Small R101
-U 1 1 601F5936
-P 2250 6150
-F 0 "R101" V 2054 6150 50  0000 C CNN
-F 1 "R_Small" V 2145 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2250 6150 50  0001 C CNN
-F 3 "~" H 2250 6150 50  0001 C CNN
-	1    2250 6150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2600 6150 2400 6150
-Wire Wire Line
-	2150 6150 2050 6150
-Connection ~ 2050 6150
-Wire Wire Line
-	2050 6150 2050 6550
-Wire Wire Line
-	2600 6250 2400 6250
-Wire Wire Line
-	2400 6250 2400 6150
-Connection ~ 2400 6150
-Wire Wire Line
-	2400 6150 2350 6150
+	2400 6550 2600 6550
 $Comp
 L Device:C_Small C102
 U 1 1 60209648
@@ -836,4 +736,148 @@ Wire Wire Line
 Connection ~ 5350 6350
 Wire Wire Line
 	3600 6350 5350 6350
+NoConn ~ 2600 6150
+NoConn ~ 2600 6250
+$Comp
+L Device:C_Small C111
+U 1 1 6016F835
+P 2400 6700
+F 0 "C111" H 2492 6746 50  0000 L CNN
+F 1 "1u/10V" H 2492 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2400 6700 50  0001 C CNN
+F 3 "~" H 2400 6700 50  0001 C CNN
+	1    2400 6700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6600 2400 6550
+$Comp
+L power:GND #PWR0123
+U 1 1 6017C57B
+P 2400 6850
+F 0 "#PWR0123" H 2400 6600 50  0001 C CNN
+F 1 "GND" H 2405 6677 50  0000 C CNN
+F 2 "" H 2400 6850 50  0001 C CNN
+F 3 "" H 2400 6850 50  0001 C CNN
+	1    2400 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6800 2400 6850
+$Comp
+L power:GND #PWR0124
+U 1 1 601862D0
+P 6700 5600
+F 0 "#PWR0124" H 6700 5350 50  0001 C CNN
+F 1 "GND" H 6705 5427 50  0000 C CNN
+F 2 "" H 6700 5600 50  0001 C CNN
+F 3 "" H 6700 5600 50  0001 C CNN
+	1    6700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C112
+U 1 1 6017FC9B
+P 6700 5500
+F 0 "C112" H 6792 5546 50  0000 L CNN
+F 1 "1u/10V" H 6792 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6700 5500 50  0001 C CNN
+F 3 "~" H 6700 5500 50  0001 C CNN
+	1    6700 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5350 6700 5350
+Wire Wire Line
+	6700 5350 6700 5400
+Connection ~ 6550 5350
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 601926ED
+P 8350 7200
+F 0 "#FLG0102" H 8350 7275 50  0001 C CNN
+F 1 "PWR_FLAG" H 8350 7373 50  0001 C CNN
+F 2 "" H 8350 7200 50  0001 C CNN
+F 3 "~" H 8350 7200 50  0001 C CNN
+	1    8350 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 7200 8350 7250
+Wire Wire Line
+	8350 7250 8500 7250
+Connection ~ 8500 7250
+Wire Wire Line
+	8500 7250 8500 7300
+$Comp
+L power:VCC #PWR0125
+U 1 1 6019DDDD
+P 10000 1950
+F 0 "#PWR0125" H 10000 1800 50  0001 C CNN
+F 1 "VCC" H 10015 2123 50  0000 C CNN
+F 2 "" H 10000 1950 50  0001 C CNN
+F 3 "" H 10000 1950 50  0001 C CNN
+	1    10000 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2000 10000 1950
+Text Label 6950 1950 0    50   ~ 0
+SW
+Text Label 7350 2250 0    50   ~ 0
+FB
+$Comp
+L Misc:MWSA0603-330MT L101
+U 1 1 601E26BE
+P 7400 2000
+F 0 "L101" H 7400 2247 60  0000 C CNN
+F 1 "33UH" H 7400 2141 60  0000 C CNN
+F 2 "PCBDecals:MWSA0603" H 7600 2200 60  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Sunlord-MWSA0603-330MT_C132138.pdf" H 7600 2300 60  0001 L CNN
+F 4 "MWSA0603-330MT" H 7600 2500 60  0001 L CNN "MPN"
+F 5 "Inductors, Coils, Chokes" H 7600 2600 60  0001 L CNN "Category"
+F 6 "Fixed Inductors" H 7600 2700 60  0001 L CNN "Family"
+F 7 "C132138" H 7600 2900 60  0001 L CNN "LCSC PN"
+F 8 "FIXED IND 33UH 2A 23.8 OHM TH" H 7600 3000 60  0001 L CNN "Description"
+F 9 "Sunlord" H 7600 3100 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 7600 3200 60  0001 L CNN "Status"
+	1    7400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:MWSA0603-330MT L102
+U 1 1 601E4AB2
+P 8050 5650
+F 0 "L102" V 7997 5737 60  0000 L CNN
+F 1 "33UH" V 8103 5737 60  0000 L CNN
+F 2 "PCBDecals:MWSA0603" H 8250 5850 60  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Sunlord-MWSA0603-330MT_C132138.pdf" H 8250 5950 60  0001 L CNN
+F 4 "MWSA0603-330MT" H 8250 6150 60  0001 L CNN "MPN"
+F 5 "Inductors, Coils, Chokes" H 8250 6250 60  0001 L CNN "Category"
+F 6 "Fixed Inductors" H 8250 6350 60  0001 L CNN "Family"
+F 7 "C132138" H 8250 6550 60  0001 L CNN "LCSC PN"
+F 8 "FIXED IND 33UH 2A 23.8 OHM TH" H 8250 6650 60  0001 L CNN "Description"
+F 9 "Sunlord" H 8250 6750 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 8250 6850 60  0001 L CNN "Status"
+	1    8050 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Misc:MWSA0603-330MT L103
+U 1 1 601EAB04
+P 8500 6900
+F 0 "L103" V 8447 6987 60  0000 L CNN
+F 1 "33UH" V 8553 6987 60  0000 L CNN
+F 2 "PCBDecals:MWSA0603" H 8700 7100 60  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Sunlord-MWSA0603-330MT_C132138.pdf" H 8700 7200 60  0001 L CNN
+F 4 "MWSA0603-330MT" H 8700 7400 60  0001 L CNN "MPN"
+F 5 "Inductors, Coils, Chokes" H 8700 7500 60  0001 L CNN "Category"
+F 6 "Fixed Inductors" H 8700 7600 60  0001 L CNN "Family"
+F 7 "C132138" H 8700 7800 60  0001 L CNN "LCSC PN"
+F 8 "FIXED IND 33UH 2A 23.8 OHM TH" H 8700 7900 60  0001 L CNN "Description"
+F 9 "Sunlord" H 8700 8000 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 8700 8100 60  0001 L CNN "Status"
+	1    8500 6900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
